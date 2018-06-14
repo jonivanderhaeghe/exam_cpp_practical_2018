@@ -24,4 +24,4 @@ Open elke oefening apart als een VSCode project, anders zal je de tasks niet kun
 
 Er is ook een sectie `Remarks` voorzien in elke `readme.md`. Gebruik dit om eventuele opmerkingen in te plaatsen die ik dien te weten: speciale extra's, fouten, bugs, ...
 
-Elke oefening dient apart gecommit te worden. Dit betekent per oefening minimum 1 commit. Je mag gerust ook na elke oefening pushen, dan kan je zeker niets verliezen van je werk. Vergeet ook zeker niet op het laatste te pushen. **Er wordt niets meer aanvaard na 12u30!**
+Elke oefening dient apart gecommit te worden. Dit betekent per oefening minimum 1 commit. Je mag gerust ook na elke oefening pushen, dan kan je zeker niets verliezen van je werk. Vergeet ook zeker niet op het laatste te pushen. **Er wordt niets meer aanvaard na 11u30!**
