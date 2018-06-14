@@ -33,13 +33,13 @@ int main(void) {
     y2 = 11.77;
 
     // Print start and end
-    cout << "Start: ";
+    cout << "Start of line: ";
     print_to_screen(x1, y1);
-    cout << "End: ";
+    cout << "End of line: ";
     print_to_screen(x2, y2);
     cout << endl;
 
-    cout << "Distance: " << to_string(determine_distance(x1, y1, x2, y2)) << endl;
+    cout << "Length: " << to_string(determine_distance(x1, y1, x2, y2)) << endl;
 
     double xmid;
     double ymid;

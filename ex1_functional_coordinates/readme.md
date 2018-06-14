@@ -15,10 +15,10 @@ Vergeet niet van `tasks.json` aan te passen om je nieuwe classes ook mee te comp
 De applicatie zou op het einde van de rit de volgende output moeten genereren (zelfde als in de startende staat).
 
 ```text
-Start: (12.340000, 32.880000)
-End: (-15.470000, 11.770000)
+Start of line: (12.340000, 32.880000)
+End of line: (-15.470000, 11.770000)
 
-Distance: 34.914584
+Length: 34.914584
 Mid of the two points: (-1.565000, 22.325000)
 ```
 
