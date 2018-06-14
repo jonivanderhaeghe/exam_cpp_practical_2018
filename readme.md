@@ -14,7 +14,7 @@ Start met hierboven (helemaal bovenaan de readme) je **naam** en de **datum** va
 
 ## De oefeningen
 
-Elke subdirectory van dit project bevat een examenoefening. Elke oefening is vergezeld van een `readme.md` met bijhorende instructies. Lees deze zeer nauwkeurig.
+Elke subdirectory van deze repository bevat een examenoefening. Elke oefening is vergezeld van een `readme.md` met bijhorende instructies. Lees deze zeer nauwkeurig.
 
 Elke oefening is reeds voorzien van twee tasks:
 * **build task**: compileren van je applicatie
