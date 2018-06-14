@@ -4,6 +4,8 @@ Deze applicatie is functioneel geschreven en heeft een serieuze refactor nodig. 
 
 Zorg dat de applicatie is opgebouwd volgens de regels van de kunst.
 
+Aangezien dit een refactor stap is dien je geen extra functionaliteit toe te voegen. Enkel wat er strikt noodzakelijk is om de huidige functionaliteit te behouden.
+
 De applicatie is volledig compileerbaar in zijn startende staat.
 
 Vergeet niet van `tasks.json` aan te passen om je nieuwe classes ook mee te compileren.
