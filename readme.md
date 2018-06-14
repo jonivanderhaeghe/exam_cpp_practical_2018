@@ -4,7 +4,7 @@
 
 # Exam OOP3 - 2018 - Practical Part
 
-Het examen bestaat uit 2 delen: 1 deel theorie, 1 deel praktische oefeningen op computer. De verdeling tussen de delen is als volgt:
+Het examen bestaat uit 2 delen: 1 deel theorie en 1 deel praktische oefeningen op computer. De verdeling tussen de delen is als volgt:
 * 50% meerkeuze
 * 50% voor de praktische oefening
 
