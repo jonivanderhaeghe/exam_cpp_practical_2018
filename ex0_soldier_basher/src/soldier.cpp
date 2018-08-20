@@ -21,7 +21,12 @@ void Soldier::equip(Weapon * weapon) {
     }
 }
 void Soldier::fight(Soldier * soldier) {
-    // THIS METHOD NEEDS IMPLEMENTATION
+    if (!soldier->is_alive() || !is_alive()) {
+        return;
+    }
+
+    soldier->damage(weapon->get_damage());
+    this->damage(soldier->weapon->get_damage());
 }
 
 std::string Soldier::to_string(void) {

@@ -12,19 +12,12 @@ int main(void) {
     
     Soldier rambo("Rambo");
     rambo.equip(new Weapon("Knife", 23));
-    
-    cout << chuck.to_string() << endl;
-    cout << rambo.to_string() << endl;
 
-    rambo.fight(&chuck);
-
-    cout << chuck.to_string() << endl;
-    cout << rambo.to_string() << endl;
-
-    rambo.fight(&chuck);
-
-    cout << chuck.to_string() << endl;
-    cout << rambo.to_string() << endl;
+    while (chuck.is_alive() && rambo.is_alive()) {
+        cout << chuck.to_string() << endl;
+        cout << rambo.to_string() << endl;
+        rambo.fight(&chuck);
+    }
 
     return 0;
 }
