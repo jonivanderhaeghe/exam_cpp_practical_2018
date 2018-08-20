@@ -1,5 +1,7 @@
 #include "playlist.h"
 
+#include "string_helper.h"          // ERUIT
+
 namespace YouTube {
 
 PlayList::PlayList(std::string name) {
@@ -11,12 +13,19 @@ std::string PlayList::get_name(void) {
 }
 
 void PlayList::add(Video video) {
-    // TODO: This method needs implementation
+    this->videos.push_back(video);
 }
 
 PlayList PlayList::search(std::string keyword) {
+    keyword = StringHelper::to_lower_case(keyword);
     PlayList searchResults("containing \"" + keyword + "\"");
-    // TODO: This method needs implementation
+
+    for (unsigned int i = 0; i < videos.size(); i++) {
+        if (StringHelper::to_lower_case(videos[i].get_title()).find(keyword) != std::string::npos
+            || StringHelper::to_lower_case(videos[i].get_author()).find(keyword) != std::string::npos) {
+            searchResults.add(videos[i]);
+        }
+    }
 
     return searchResults;
 }

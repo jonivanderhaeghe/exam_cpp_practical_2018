@@ -35,7 +35,9 @@ void Video::like(void) {
 
 std::string Video::to_string(void) {
     // TODO: This method needs implementation
-    return "Video to_string() method incomplete. Please FIX.";
+    // return "Video to_string() method incomplete. Please FIX.";
+    return title + " by " + author + " [" + std::to_string(likes) + " likes] "
+        + "(" + std::to_string(duration/60) + ":" + std::to_string(duration%60) + ")"; 
 }
 
 };
